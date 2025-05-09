@@ -1,28 +1,28 @@
 Name,Type,Opening Width(mm),Opening Height (mm),Opening Area (m2),RoofType,ImageURL
-SKYLARK250_WINDOW-M1,Windows and doorways,564,1200,0.7,,
-SKYLARK250_WINDOW-S1,Windows and doorways,564,900,0.5,,
-SKYLARK250_DOOR-S1,Windows and doorways,1164,1932,2.3,,
-SKYLARK250_WINDOW-XL1,Windows and doorways,564,1800,1,,
-SKYLARK250_DOOR-M1,Windows and doorways,1164,2232,2.6,,
-SKYLARK250_DOOR-XL1,Windows and doorways,1164,2832,3.3,,
-SKYLARK250_WINDOW-L1,Windows and doorways,564,1500,0.9,,
-SKYLARK250_WINDOW-L3,Windows and doorways,564,1800,1,,
-SKYLARK250_WINDOW-L2,Windows and doorways,1164,1500,1.8,,
-SKYLARK250_DOOR-L1,Windows and doorways,1164,2532,3,,
-SKYLARK250_WINDOW-M2,Windows and doorways,1164,1200,1.4,,
-SKYLARK250_WINDOW-S4,Windows and doorways,1164,1500,1.8,,
-SKYLARK250_WINDOW-M4,Windows and doorways,1164,1800,2.1,,
-SKYLARK250_WINDOW-S2,Windows and doorways,1164,900,1.1,,
-SKYLARK250_WINDOW-XL2,Windows and doorways,1164,1800,2.1,,
-SKYLARK250_WINDOW-XL4,Windows and doorways,1164,2100,2.4,,
-SKYLARK250_WINDOW-XL3,Windows and doorways,564,2100,1.2,,
-SKYLARK250_WINDOW-M3,Windows and doorways,564,1800,1,,
-SKYLARK250_WINDOW-S3,Windows and doorways,564,1500,0.9,,
-SKYLARK250_WINDOW-L4,Windows and doorways,1164,1800,2.1,,
-SKYLARK250_DOOR-M2,Windows and doorways,2328,2232,5.2,,
-SKYLARK250_DOOR-S2,Windows and doorways,2328,1932,4.5,,
-SKYLARK250_DOOR-XL2,Windows and doorways,2328,2832,6.6,,
-SKYLARK250_DOOR-L2,Windows and doorways,2328,2532,5.9,,
+SKYLARK250_WINDOW-M1,Windows and doorways,564,1200,0.7,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b24a2b1a6ab4feb368cb3c_o5HueaIFBcQ0ezkzBTQ0iPecLFqmFWPAL8rI_hv0nQU.svg
+SKYLARK250_WINDOW-S1,Windows and doorways,564,900,0.5,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b24a2da4a804e62a65cd52_ABCasXzWDYwTvpNzpBONFbhZVaqFXiz4dBN6QWgPmtE.svg
+SKYLARK250_DOOR-S1,Windows and doorways,1164,1932,2.3,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b24a2e9023e631a981c11f_-G-clHz4f5tHKya1lRQgw18_LMPeW4EITIC04vOm8w4.svg
+SKYLARK250_WINDOW-XL1,Windows and doorways,564,1800,1,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b24a2e3dbccabb2b9890b8_3oAWujNJKgkMyls5Wb5O8srOb5oWtyvB3g6aoWLyVi8.svg
+SKYLARK250_DOOR-M1,Windows and doorways,1164,2232,2.6,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b24a303e36e79e965f4b88_-b0RD_H1RHlrTlN5Ha6HMYEIekT_Xc4W-UpFzxYsqeU.svg
+SKYLARK250_DOOR-XL1,Windows and doorways,1164,2832,3.3,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b24a3211bb174c3cbc9ac1_e_6P29W0HGU7Tt8cVSXmLd7gX-ShwCQqzTBnj24Eu5E.svg
+SKYLARK250_WINDOW-L1,Windows and doorways,564,1500,0.9,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b24a4288ef6c3e4020ff69_32AKvM22rPhfws9N7v7bDqMZV7nZZ3hCeulFS6-61UQ.svg
+SKYLARK250_WINDOW-L3,Windows and doorways,564,1800,1,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b24a42e92554ae92838a00_QLq3a9vBLRsTHk2K3Y2H6kMzH6_kYBtnZmf69zRAOKU.svg
+SKYLARK250_WINDOW-L2,Windows and doorways,1164,1500,1.8,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b24a45e09b6d7c8e8e8d32_HcCT10CL3O9CDhf0ukYNAZ0kEbb_s0shaBh7nVAhT6Q.svg
+SKYLARK250_DOOR-L1,Windows and doorways,1164,2532,3,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b24a4f9023e631a981dd8e_WsBMq4xCioYtLocTUO--j_dJo-zHaBSv_eJ-3UAYqQg.svg
+SKYLARK250_WINDOW-M2,Windows and doorways,1164,1200,1.4,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b24a4594968c6c8928ff91_ujzToVC4T_4czQPgax4fwcrXxQp3DXlfMhK3e1hYFWM.svg
+SKYLARK250_WINDOW-S4,Windows and doorways,1164,1500,1.8,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b24a46dd103fc6f1e84ef6_6XAHbz7cOG-hjJ-Z61c6gEzJuQ6iyvrW4_BiEHyFMSo.svg
+SKYLARK250_WINDOW-M4,Windows and doorways,1164,1800,2.1,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b28d13e75f0f7de60150a3_TSKvcFq9Qcu7BXfiR1JtiAgnjobvsSXL6T_9sWOfiuY.svg
+SKYLARK250_WINDOW-S2,Windows and doorways,1164,900,1.1,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b28d147252115073a8b4c1_oGpa4Meu448W4YisToTgXd_lCr6iqeRpeJR0OoEfFBg.svg
+SKYLARK250_WINDOW-XL2,Windows and doorways,1164,1800,2.1,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b28d16c6631fe2463e2d5b_RZiMl0U66ykIShtpBK56z4GWr_Kmi-5I-JZl9a_9tS0.svg
+SKYLARK250_WINDOW-XL4,Windows and doorways,1164,2100,2.4,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b28d183838ddeaea007e5c_F1MOlFJ_8QJ5NJTkz9z9nbLmaLIn02C8Vc9uDGtftj0.svg
+SKYLARK250_WINDOW-XL3,Windows and doorways,564,2100,1.2,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b28d17cd30ba735875e92e_dI0COcTMfpWJ6fA-eD3n-J3wzTcXb-t2lKlklZo5PY0.svg
+SKYLARK250_WINDOW-M3,Windows and doorways,564,1800,1,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b28d12db018b429f8d41c8_zUxUTBqNmDuPmFlCv3Bm5NZFnWS7mFj3J7vxCAIieOw.svg
+SKYLARK250_WINDOW-S3,Windows and doorways,564,1500,0.9,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b28d162769cc2a82b1af87_Y83_szqk48pElGgXIGqWhypqH7rtpyeawv2p18n-AvU.svg
+SKYLARK250_WINDOW-L4,Windows and doorways,1164,1800,2.1,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b28d123838ddeaea0079e4_TZAzKMdWD0trLfYDUQBg6VnMhoXDw8OFFMQ7kd5oRhI.svg
+SKYLARK250_DOOR-M2,Windows and doorways,2328,2232,5.2,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/66c74b81ed42bb124c4d4056_Nzf4gL01Sb87RbLgx8r7G8I9OO1ayDEa-UDUwKQG_q8.svg
+SKYLARK250_DOOR-S2,Windows and doorways,2328,1932,4.5,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/66c74b81f1d582e57c54bc36_UHouTAlJ9CERVQi8EHaJYPu75ODJZ5GPRxODbWdwb0A.svg
+SKYLARK250_DOOR-XL2,Windows and doorways,2328,2832,6.6,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/66c74b83690f7bb9391905d5_PJyPXfHH7q4mrw7dELrIxovu16ohTXtamjKlaz9mr80.svg
+SKYLARK250_DOOR-L2,Windows and doorways,2328,2532,5.9,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/66c74b8406242e6ce850359a_NToCvjypcJ9cPDR-08nZT2STUQ91m0vFsPqSFNENj1s.svg
 SKYLARK200_WINDOW-XL1,Windows and doorways,564,1800,1,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b23f55cdd755241282c004_1fjz4Nds1Y9iOfPA249nbX-ZBcMb_gLnnADnVK4Y9Kg.svg
 SKYLARK200_WINDOW-S1,Windows and doorways,564,900,0.5,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b23f67152c9d10f4496cb0_oAVoC9QYiN-NEX06DjKNnBYhFrT06ou_psXiH5afAxo.svg
 SKYLARK200_WINDOW-L2,Windows and doorways,1164,1500,1.8,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b23f57ba38ad19e854c77d_RzZHRFTO-E8nHMRThHYBRZPIHfLA0GulUEJRXRPtEME.svg
@@ -47,13 +47,13 @@ SKYLARK200_DOOR-L2,Windows and doorways,2328,2532,5.9,,https://cdn.prod.website-
 SKYLARK200_DOOR-M2,Windows and doorways,2328,2232,5.2,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/66c74adab56b4f2d0e7dbb55_HkyH5vnluHoZqTpvhMgP8Aa60_tRP2QeZ6hVsJENAjU.svg
 SKYLARK200_DOOR-S2,Windows and doorways,2328,1932,4.5,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/66c74adad56bac9d526ea038_RhCiY0MkhyhnTCHxQHO58tIxWUSG9JK8qrTfBCHIFps.svg
 SKYLARK200_DOOR-XL2,Windows and doorways,2328,2832,6.6,,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/66c74adcfc4909f1ca125159_VwG7rYc56O1Q4Etxvs2xdPMGSptS3Lxc9IVPWnP-Ysc.svg
-SKYLARK250_SKYLIGHT-M,Roof,800,800,0.64,double-pitch,
-SKYLARK250_SKYLIGHT-L,Roof,1000,1000,1,double-pitch,
-SKYLARK250_SKYLIGHT-S,Roof,600,600,0.36,double-pitch,
-SKYLARK250_SKYLIGHT-XS,Roof,500,500,0.25,double-pitch,
-SKYLARK250_SKYLIGHT-XXS,Roof,400,400,0.16,double-pitch,
+SKYLARK250_SKYLIGHT-M,Roof,800,800,0.64,double-pitch,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b2478c2ddec85b9be5b487_OhJGOIEBOV6PZW7xeL7RJjGJmVeqmPXPHOdnyw7BdUQ.svg
+SKYLARK250_SKYLIGHT-L,Roof,1000,1000,1,double-pitch,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b2478c72b2b04bafc978b8_l6b5mP4ybGET_ng_F7AxfdUZGV9_gdrgmGAYsMwYP_U.svg
+SKYLARK250_SKYLIGHT-S,Roof,600,600,0.36,double-pitch,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b2478db8f56019e5c9835c_wz7tMz5nLVFkI-51I0VAiV4tl6yjNVCogSvIjYWYgPk.svg
+SKYLARK250_SKYLIGHT-XS,Roof,500,500,0.25,double-pitch,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b2478eb7a4061baff9cc3b_CCQOAVeSBtzOaVHBn_ImbqIxOrbrpoLt80FGH3n05Eg.svg
+SKYLARK250_SKYLIGHT-XXS,Roof,400,400,0.16,double-pitch,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/65b2478fdfc710a19c8a0725_h8a8wyuP4EFEmk0v__Hx8hKNNaKDRPhseiVaeKaz9zQ.svg
 SKYLARK200_SKYLIGHT150-XXXS,Roof,300,300,0.09,mono-pitch,
-SKYLARK200_SKYLIGHT-S,Roof,600,600,0.36,double-pitch,
-SKYLARK200_SKYLIGHT-XS,Roof,500,500,0.25,double-pitch,
-SKYLARK200_SKYLIGHT-XXXS,Roof,300,300,0.09,double-pitch,
-SKYLARK200_SKYLIGHT-XXS,Roof,400,400,0.16,double-pitch,
+SKYLARK200_SKYLIGHT-S,Roof,600,600,0.36,double-pitch,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/66c74317985cd57cc8e49536_z33hhB8hMg4EoDDhUJDEmtr5R1RcLH-fWXs_A_9bNFU.svg
+SKYLARK200_SKYLIGHT-XS,Roof,500,500,0.25,double-pitch,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/66c7431808dba3febd4db9e8_k4sf6tttikYNJmvL9pkO2ojTKUQVcnNyZxbEYrWPYew.svg
+SKYLARK200_SKYLIGHT-XXXS,Roof,300,300,0.09,double-pitch,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/66c7431a4f73f82bb27193e9_BOJ9WttledhrlsS5_q5Ub5Ko9XcrqSvDzha2dyMpEgs.svg
+SKYLARK200_SKYLIGHT-XXS,Roof,400,400,0.16,double-pitch,https://cdn.prod.website-files.com/612569c3243035968aaf61f1/66c7431b51934849f74ccc8f_F9BKe2BAMarin3UfyAJWm2GOxsEF8QIRlQbGljOsdG0.svg
