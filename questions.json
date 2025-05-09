@@ -1,0 +1,237 @@
+{
+  "pages": [
+    {
+      "title": "Select Project Type",
+      "type": "card-selection",
+      "required": true,
+      "options": [
+        {
+          "value": "self-build",
+          "title": "Self Build",
+          "description": "For self builders. We supply flat pack kit or pre-assembled blocks.",
+          "emoji": "🧰",
+          "disabled": false
+        },
+        {
+          "value": "turnkey",
+          "title": "Turnkey Build",
+          "description": "Let us build your dream space from start to finish.",
+          "emoji": "🏡"
+        }
+      ],
+      "fields": [
+        {
+          "id": "selfBuildType",
+          "type": "card-selection",
+          "label": "Self Build Type",
+          "required": true,
+          "conditional": {
+            "field": "projectType",
+            "value": "self-build"
+          },
+          "options": [
+            {
+              "value": "flat-pack",
+              "title": "Flat Pack",
+              "description": "DIY assembly kit with all components",
+              "emoji": "📦",
+              "disabled": false
+            },
+            {
+              "value": "pre-assembled",
+              "title": "Pre-assembled",
+              "description": "Ready-made blocks for quicker installation",
+              "emoji": "🧱",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "id": "roofType",
+          "type": "card-selection",
+          "label": "Roof Type",
+          "required": true,
+          "options": [
+            {
+              "value": "mono-pitch",
+              "title": "Mono Pitch",
+              "description": "Single sloped roof design",
+              "emoji": "🏠",
+              "disabled": false
+            },
+            {
+              "value": "double-pitch",
+              "title": "Double Pitch",
+              "description": "Traditional peaked roof design",
+              "emoji": "🏡",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "id": "wallDepth",
+          "type": "card-selection",
+          "label": "Wall Depth",
+          "required": true,
+          "options": [
+            {
+              "value": "200mm",
+              "title": "200mm",
+              "description": "Standard wall thickness",
+              "emoji": "🧱",
+              "disabled": false
+            },
+            {
+              "value": "250mm",
+              "title": "250mm",
+              "description": "Enhanced wall thickness for better insulation",
+              "emoji": "🧱",
+              "disabled": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Build Details",
+      "type": "form-fields",
+      "description": "Tell us about your requirements",
+      "fields": [   
+        {
+          "id": "length",
+          "type": "select",
+          "label": "Length",
+          "placeholder": "Select length",
+          "required": true,
+          "options": [
+            { "value": "3", "label": "3 metres" },
+            { "value": "4", "label": "4 metres" },
+            { "value": "5", "label": "5 metres" },
+            { "value": "6", "label": "6 metres" },
+            { "value": "7", "label": "7 metres" },
+            { "value": "8", "label": "8 metres" }
+          ]
+        },
+        {
+          "id": "width",
+          "type": "select",
+          "label": "Width",
+          "placeholder": "Select width",
+          "required": true,
+          "options": [
+            { "value": "3", "label": "3 metres" },
+            { "value": "4", "label": "4 metres" },
+            { "value": "5", "label": "5 metres" },
+            { "value": "6", "label": "6 metres" },
+            { "value": "7", "label": "7 metres" },
+            { "value": "8", "label": "8 metres" }
+          ]
+        },
+        {
+          "id": "height",
+          "type": "select",
+          "label": "Height",
+          "placeholder": "Select height",
+          "required": true,
+          "options": [
+            { "value": "2.5", "label": "2.5 metres" },
+            { "value": "3", "label": "3 metres" },
+            { "value": "3.5", "label": "3.5 metres" },
+            { "value": "4", "label": "4 metres" }
+          ]
+        },
+        {
+          "id": "windows",
+          "type": "carousel-selection",
+          "label": "Windows",
+          "required": false,
+          "options": []
+        },
+        {
+          "id": "doors",
+          "type": "carousel-selection",
+          "label": "Doors",
+          "required": false,
+          "options": []
+        },
+        {
+          "id": "skylights",
+          "type": "carousel-selection",
+          "label": "Skylights",
+          "required": false,
+          "options": []
+        },
+        {
+          "id": "standard_specs_container",
+          "type": "placeholder",
+          "label": "Standard Specifications",
+          "html": "<div id='standardSpecsContainer'></div>",
+          "conditional": {
+            "field": "projectType",
+            "value": "turnkey"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Contact Information",
+      "type": "form-fields",
+      "fields": [
+        {
+          "id": "name",
+          "type": "text",
+          "label": "Full Name",
+          "required": true
+        },
+        {
+          "id": "email",
+          "type": "email",
+          "label": "Email Address",
+          "required": true
+        },
+        {
+          "id": "phone",
+          "type": "tel",
+          "label": "Phone Number",
+          "required": true
+        },
+        {
+          "id": "preferredContact",
+          "type": "select",
+          "label": "Preferred Contact Method",
+          "required": true,
+          "options": [
+            { "value": "email", "label": "Email" },
+            { "value": "phone", "label": "Phone" },
+            { "value": "either", "label": "Either" }
+          ]
+        },
+        {
+          "id": "howHeard",
+          "type": "select",
+          "label": "How did you hear about us?",
+          "required": false,
+          "options": [
+            { "value": "search", "label": "Search Engine" },
+            { "value": "social", "label": "Social Media" },
+            { "value": "referral", "label": "Friend/Referral" },
+            { "value": "event", "label": "Event/Exhibition" },
+            { "value": "other", "label": "Other" }
+          ]
+        },
+        {
+          "id": "address",
+          "type": "text",
+          "label": "Address",
+          "required": true
+        },
+        {
+          "id": "postcode",
+          "type": "text",
+          "label": "Postcode",
+          "required": true
+        }
+      ]
+    }
+  ]
+}

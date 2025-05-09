@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug GEO PLY Form</title>
+</head>
+<body>
+    <h1>Debug Window Styling</h1>
+    <button id="fixS4">Fix S4 Window Display</button>
+    <button id="fixAllWindows">Fix All Window Displays</button>
+    
+    <script>
+        document.getElementById('fixS4').addEventListener('click', function() {
+            // Find S4 window input
+            const s4Input = document.getElementById('windows_S4_qty');
+            if (!s4Input) {
+                alert('S4 input not found');
+                return;
+            }
+            
+            // Check the value vs class state
+            const value = parseInt(s4Input.value || '0');
+            const hasValueClass = s4Input.classList.contains('quantity-has-value');
+            
+            // Ensure consistency
+            if (value > 0 && !hasValueClass) {
+                s4Input.classList.add('quantity-has-value');
+                const item = s4Input.closest('.carousel-item');
+                if (item) item.classList.add('carousel-item-has-quantity');
+                alert('Fixed: Added classes to match value > 0');
+            } else if (value === 0 && hasValueClass) {
+                // If classes show selection but value is 0, set value to 1
+                s4Input.value = 1;
+                alert('Fixed: Set value to 1 to match selected appearance');
+            } else {
+                alert('S4 window appears to be consistent - value: ' + value + ', hasClass: ' + hasValueClass);
+            }
+        });
+        
+        document.getElementById('fixAllWindows').addEventListener('click', function() {
+            // Find all window inputs
+            const windowInputs = document.querySelectorAll('[id^="windows_"][id$="_qty"]');
+            if (!windowInputs.length) {
+                alert('No window inputs found');
+                return;
+            }
+            
+            let fixed = 0;
+            windowInputs.forEach(input => {
+                // Check the value vs class state
+                const value = parseInt(input.value || '0');
+                const hasValueClass = input.classList.contains('quantity-has-value');
+                
+                // Ensure consistency
+                if (value > 0 && !hasValueClass) {
+                    input.classList.add('quantity-has-value');
+                    const item = input.closest('.carousel-item');
+                    if (item) item.classList.add('carousel-item-has-quantity');
+                    fixed++;
+                } else if (value === 0 && hasValueClass) {
+                    // If classes show selection but value is 0, set value to 1
+                    input.value = 1;
+                    fixed++;
+                }
+            });
+            
+            alert('Fixed ' + fixed + ' window inputs');
+        });
+    </script>
+</body>
+</html>
