@@ -9,7 +9,7 @@
           "value": "self-build",
           "title": "Self Build",
           "description": "For self builders. We supply flat pack kit or pre-assembled blocks.",
-          "emoji": "🧰",
+          "emoji": "🛠️",
           "disabled": false
         },
         {
@@ -41,7 +41,7 @@
               "value": "pre-assembled",
               "title": "Pre-assembled",
               "description": "Ready-made blocks for quicker installation",
-              "emoji": "🧱",
+              "emoji": "🔨",
               "disabled": false
             }
           ]
@@ -56,14 +56,14 @@
               "value": "mono-pitch",
               "title": "Mono Pitch",
               "description": "Single sloped roof design",
-              "emoji": "🏠",
+              "emoji": "1⃣️",
               "disabled": false
             },
             {
               "value": "double-pitch",
               "title": "Double Pitch",
               "description": "Traditional peaked roof design",
-              "emoji": "🏡",
+              "emoji": "2⃣️",
               "disabled": false
             }
           ]
@@ -78,14 +78,14 @@
               "value": "200mm",
               "title": "200mm",
               "description": "Standard wall thickness",
-              "emoji": "🧱",
+              "emoji": "📏",
               "disabled": false
             },
             {
               "value": "250mm",
               "title": "250mm",
               "description": "Enhanced wall thickness for better insulation",
-              "emoji": "🧱",
+              "emoji": "📏📏",
               "disabled": false
             }
           ]
