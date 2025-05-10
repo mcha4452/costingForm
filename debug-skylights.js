@@ -101,11 +101,11 @@
             console.log('[DEBUG] Form submission detected');
             
             // Log the state before submission
-            logSkylightState('Before submission');
+            console.log('[DEBUG] Skylight state before submission (logging skipped)');
             
             // Check back after a delay to see post-submission state
             setTimeout(function() {
-                logSkylightState('After submission');
+            console.log('[DEBUG] Skylight state after submission (logging skipped)');
             }, 500);
         });
     }
@@ -365,6 +365,18 @@
             }
             
             // Capture DOM state
+            // Add a basic skylight state logging function to avoid errors
+function logSkylightState(label) {
+    console.log(`[DEBUG] Basic skylight state (${label})`);
+    const container = document.getElementById('skylightsContainer');
+    if (container) {
+        const items = container.querySelectorAll('.carousel-item');
+        console.log(`Found ${items.length} skylight items, container visibility: ${container.style.display}`);
+    } else {
+        console.log('Skylight container not found');
+    }
+}
+
             const visiblePage = document.querySelector('.form-page.active');
             console.log('[DEBUG] Active page:', visiblePage ? visiblePage.id : 'none');
             
